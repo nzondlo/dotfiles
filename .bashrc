@@ -225,3 +225,7 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export TERM=xterm-256color
