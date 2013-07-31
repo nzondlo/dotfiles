@@ -66,8 +66,8 @@
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
 
-;; ---------------------------
-;; -- JS Mode configuration --
+;; ---------------------------;; 
+;;   -- JS Mode configuration --
 ;; ---------------------------
 (load "js-config.el")
 (add-to-list 'load-path "~/.emacs.d/jade-mode") ;; github.com/brianc/jade-mode
@@ -75,3 +75,6 @@
 (require 'jade-mode)    
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme/emacs-color-theme-solarized")
+(load-theme 'solarized-dark t)
