@@ -76,5 +76,9 @@
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
+
+;; -------------------------------- ;;
+;; -- Solarized color theme load -- ;;
+;; -------------------------------- ;;
 (add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme/emacs-color-theme-solarized")
 (load-theme 'solarized-dark t)
